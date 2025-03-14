@@ -1,0 +1,139 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove margens da página */
+    padding: 0; /* Remove o espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background: #f8f6f1; /* Define a cor do cabeçalho */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    padding: 20px; /* Adiciona espaçamento interno */
+    position: relative; /* Permite posicionar elementos dentro do cabeçalho */
+    display: flex; /* Ativa o modelo flexbox */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos */
+}
+
+/* Posiciona "Eros" e "Pet" no canto superior esquerdo */
+.titulo-container {
+    position: absolute; /* Posicionamento absoluto dentro do cabeçalho */
+    top: 10px; /* Distância do topo */
+    left: 20px; /* Distância da borda esquerda */
+    display: flex; /* Ativa o modelo flexbox */
+    flex-direction: column; /* Organiza os textos verticalmente */
+    text-align: left; /* Alinha os textos à esquerda */
+}
+
+/* Estiliza "Eros" */
+.TituloEros {
+    font-weight: 800; /* Texto em negrito */
+    font-size: 40px; /* Aumenta o tamanho da fonte */
+    color: #004aad; /* Cor azul escura */
+}
+
+/* Estiliza "Pet" com deslocamento para a direita */
+.TituloPet {
+    font-weight: 800; /* Texto em negrito */
+    font-size: 45px; /* Aumenta o tamanho da fonte */
+    color: #4672f4; /* Cor azul clara */
+    margin-left: 50px; /* Move um pouco para a direita */
+    margin-top: -25px;
+}
+
+/* Centraliza a barra de pesquisa no topo */
+.search-container {
+    display: flex; /* Ativa o modelo flexbox */
+    align-items: center; /* Centraliza os itens verticalmente */
+    background: white; /* Fundo branco */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 5px; /* Espaçamento interno */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    margin-top: 10px; /* Espaçamento superior */
+    width: 50%; /* Aumenta o tamanho da barra de pesquisa */
+}
+
+/* Estiliza o campo de pesquisa */
+.search-input {
+    border: none; /* Remove a borda padrão */
+    outline: none; /* Remove o contorno ao clicar */
+    padding: 12px; /* Espaçamento interno */
+    font-size: 18px; /* Aumenta o tamanho do texto */
+    border-radius: 25px 0 0 25px; /* Bordas arredondadas apenas no lado esquerdo */
+    width: 100%; /* Faz com que ocupe todo o espaço disponível */
+}
+
+/* Estiliza o botão de pesquisa */
+.search-button {
+    border: none; /* Remove a borda */
+    background: #007bff; /* Cor azul */
+    color: white; /* Cor do texto */
+    padding: 14px; /* Aumenta o tamanho do botão */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    font-size: 18px; /* Aumenta o tamanho do ícone */
+    border-radius: 0 25px 25px 0; /* Bordas arredondadas apenas no lado direito */
+    transition: background 0.3s; /* Efeito de transição suave */
+}
+
+/* Efeito hover no botão */
+.search-button:hover {
+    background: #0056b3; /* Cor azul mais escura ao passar o mouse */
+}
+
+/* Estiliza a navegação */
+nav {
+    margin-top: 15px; /* Adiciona espaçamento superior */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove espaçamento interno */
+    display: flex; /* Ativa flexbox para organizar os itens */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estiliza os itens da lista */
+nav ul li {
+    display: inline; /* Deixa os itens na mesma linha */
+}
+
+/* Estiliza os links do menu */
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Aumenta o tamanho do texto */
+    color: black; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 10px; /* Adiciona espaçamento interno */
+    transition: color 0.3s; /* Efeito de transição de cor */
+}
+
+/* Efeito hover nos links do menu */
+nav ul li a:hover {
+    color: #007bff; /* Muda para azul ao passar o mouse */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    .search-container {
+        width: 80%; /* A barra de pesquisa ocupa mais espaço */
+    }
+    .search-input {
+        width: 100%; /* Ajusta o tamanho do campo */
+    }
+    nav ul {
+        flex-direction: column; /* Empilha os itens do menu */
+        align-items: center; /* Centraliza os itens */
+        gap: 10px; /* Ajusta o espaçamento*/ 
+
+    }
+
+  
+    .TituloEros,.TituloPet {
+       display: none;
+       
+    }
+}
