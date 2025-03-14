@@ -4,7 +4,7 @@ body {
     margin: 0; /* Remove margens da página */
     padding: 0; /* Remove o espaçamento interno */
     text-align: center; /* Centraliza o texto */
-    background-color: #f4f4f4; /* Cor de fundo da página */
+    background-color:  white; /* Cor de fundo da página */
 }
 
 /* Estiliza o cabeçalho */
@@ -31,14 +31,14 @@ header {
 /* Estiliza "Eros" */
 .TituloEros {
     font-weight: 800; /* Texto em negrito */
-    font-size: 40px; /* Aumenta o tamanho da fonte */
+    font-size: 50px; /* Aumenta o tamanho da fonte */
     color: #004aad; /* Cor azul escura */
 }
 
 /* Estiliza "Pet" com deslocamento para a direita */
 .TituloPet {
     font-weight: 800; /* Texto em negrito */
-    font-size: 45px; /* Aumenta o tamanho da fonte */
+    font-size: 55px; /* Aumenta o tamanho da fonte */
     color: #4672f4; /* Cor azul clara */
     margin-left: 50px; /* Move um pouco para a direita */
     margin-top: -25px;
@@ -116,6 +116,44 @@ nav ul li a:hover {
     color: #007bff; /* Muda para azul ao passar o mouse */
 }
 
+
+.home-button{
+
+    border: none; /* Remove a borda */
+    background: none; /* Cor azul */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    padding: 14px; /* Aumenta o tamanho do botão */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    font-size: 50px; /* Aumenta o tamanho do ícone */
+    border-radius: 0 25px 25px 0; /* Bordas arredondadas apenas no lado direito */
+    transition: background 0.3s; /* Efeito de transição suave */
+    position: relative;
+   
+
+}
+.home-button:hover {
+    color: #0056b3; /* Cor azul mais escura ao passar o mouse */
+}
+
+.home-input {
+    border: none; /* Remove a borda padrão */
+    outline: none; /* Remove o contorno ao clicar */
+    padding: 12px; /* Espaçamento interno */
+    border-radius: 25px 25px 25px 25px; /* Bordas arredondadas apenas no lado esquerdo */
+}
+
+.home-container {
+    display: flex; /* Ativa o modelo flexbox */
+    align-items: center; /* Centraliza os itens verticalmente */
+    background: none; /* Fundo branco */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 80px; /* Espaçamento interno */
+    margin-top: -40px; /* Espaçamento superior */
+    margin-left: 270px;
+    width: 50%; /* Aumenta o tamanho da barra de pesquisa */
+}
+
+
 /* Responsividade para telas menores */
 @media (max-width: 600px) {
     .search-container {
@@ -131,9 +169,18 @@ nav ul li a:hover {
 
     }
 
-  
     .TituloEros,.TituloPet {
        display: none;
        
+    }
+
+    .home-container {
+        width: 80%; /* A barra de pesquisa ocupa mais espaço */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .home-input {
+        width: 100%; /* Ajusta o tamanho do campo */
+        align-items: center; /* Centraliza os itens */
     }
 }

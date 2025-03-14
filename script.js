@@ -1,4 +1,9 @@
-// Seleciona o botão pelo ID e adiciona um evento de clique
-document.getElementById("meuBotao").addEventListener("click", function() {
-    alert("Botão clicado!"); // Exibe um alerta ao clicar no botão
-});
+var imgPrincipal = "imgs/gato.png";
+var imgProxima = "imgs/cao.png";
+
+function proxima(){
+    document.getElementById("imghome").src = imgPrincipal;
+    let xi = imgPrincipal;
+    imgPrincipal = imgProxima;
+    imgProxima = xi;
+}
