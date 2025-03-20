@@ -4,12 +4,12 @@ body {
     margin: 0; /* Remove margens da página */
     padding: 0; /* Remove o espaçamento interno */
     text-align: center; /* Centraliza o texto */
-    background-color:  white; /* Cor de fundo da página */
+    background-color:  rgb(250, 245, 245); /* Cor de fundo da página */
 }
 
 /* Estiliza o cabeçalho */
 header {
-    background: #f8f6f1; /* Define a cor do cabeçalho */
+    background: #ffffff; /* Define a cor do cabeçalho */
     color: rgb(0, 0, 0); /* Cor do texto */
     padding: 20px; /* Adiciona espaçamento interno */
     position: relative; /* Permite posicionar elementos dentro do cabeçalho */
@@ -28,22 +28,11 @@ header {
     text-align: left; /* Alinha os textos à esquerda */
 }
 
-/* Estiliza "Eros" */
-.TituloEros {
-    font-weight: 800; /* Texto em negrito */
-    font-size: 50px; /* Aumenta o tamanho da fonte */
-    color: #004aad; /* Cor azul escura */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    list-style: none; /* Remove os marcadores da lista */
-}
 
-/* Estiliza "Pet" com deslocamento para a direita */
-.TituloPet {
-    font-weight: 800; /* Texto em negrito */
-    font-size: 55px; /* Aumenta o tamanho da fonte */
-    color: #4672f4; /* Cor azul clara */
-    margin-left: 50px; /* Move um pouco para a direita */
-    margin-top: -25px;
+.Logo{
+    margin-left: 120px; /* Move um pouco para a direita */
+    margin-top: 10px;
+    border-radius: 10% 
 }
 
 /* Centraliza a barra de pesquisa no topo */
