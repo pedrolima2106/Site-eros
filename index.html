@@ -4,31 +4,32 @@
     <meta charset="UTF-8"> <!-- Suporte para caracteres especiais -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
     <title>ErosPetCare</title> <!-- Define o título da aba -->
-    <link rel="stylesheet" href="style.css"> <!-- Conecta ao CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- Conecta o CSS -->
 </head>
 <body>
 
     <header>
-        <!-- Título "Eros" e "Pet" no canto superior esquerdo -->
-        <div class="titulo-container">
-            <a class="TituloEros" href="index.html"><img class="Logo" id="logo" src="imgs/logo.jpg" width="150" height="150"></a>
+        <!-- Logo no canto superior Esquerdo -->
+        <div class="logo"> 
+            <a href="index.html">
+                <img class="logo-input" src="imgs/logo.jpg" width="150" height="150" alt="Logo ErosPetCare">
+            </a>
         </div>
 
-        <!-- Barra de pesquisa centralizada e maior -->
+        <!-- Barra de pesquisa centralizada -->
         <div class="search-container">
             <input type="text" placeholder="Digite sua pesquisa..." class="search-input"> <!-- Campo de pesquisa -->
             <button class="search-button" aria-label="Pesquisar">🔍</button> <!-- Botão de pesquisa -->
         </div>
-        
 
         <!-- Menu de navegação -->
         <nav>
             <ul>
-                <li><a href="cuidadoComFilhotes.html">Cuidados Com filhotes</a></li> <!-- Link para a página "Sobre" -->
-                <li><a href="EstamosAqui.html">Estamos aqui</a></li> <!-- Link para a página "Contato" -->
-                <li><a href="Exames.html">Exames</a></li> <!-- Link para a página inicial -->
-                <li><a href="oqueFazemos.html">O que fazemos</a></li> <!-- Link para a página "Sobre" -->
-                <li><a href="contato.html">Contato</a></li> <!-- Link para a página "Contato" -->
+                <li><a href="cuidadoComFilhotes.html">Cuidados Com Filhotes</a></li>
+                <li><a href="EstamosAqui.html">Estamos Aqui</a></li>
+                <li><a href="Exames.html">Exames</a></li>
+                <li><a href="oqueFazemos.html">O Que Fazemos</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -36,13 +37,13 @@
     <!-- Seção principal -->
     <section>
         <div class="home-container">
-            <button class="home-button" onclick="proxima()"><</button> <!-- Botão interativo -->
-            <img class="home-input" id="imghome" src="imgs/gato.png" width="1200" height="450"/>
-            <button class="home-button" onclick="proxima()">></button> <!-- Botão interativo -->
+            <button class="home-button" onclick="proxima()">←</button> <!-- Botão "anterior" -->
+            <img class="home-input" id="imghome" src="imgs/gato.png" alt="Imagem de gato" />
+            <button class="home-button" onclick="proxima()">→</button> <!-- Botão "próximo" -->
         </div>
     </section>
 
-    <script src="script.js"></script> <!-- Conecta ao JavaScript -->
+    <script src="script.js"></script> <!-- Conecta o arquivo JavaScript -->
     
 </body>
 </html>
