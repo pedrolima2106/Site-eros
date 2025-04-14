@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Pedro\\Desktop\\Site-eros\\index.html"
+            "file": "c:\\Users\\Pedro\\Desktop\\Site-eros\\Layout\\index.html"
         }
     ]
 }

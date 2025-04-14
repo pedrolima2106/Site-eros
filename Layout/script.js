@@ -1,5 +1,5 @@
-var imgPrincipal = "imgs/gato.png";
-var imgProxima = "imgs/cao.png";
+var imgPrincipal = "../imgs/gato.png";
+var imgProxima = "../imgs/cao.png";
 
 function proxima(){
     document.getElementById("imghome").src = imgPrincipal;
