@@ -14,12 +14,6 @@ Site institucional desenvolvido para a empresa fictícia *Eros Pet Care*, focado
 - Layout responsivo (adaptável a celulares)
 - Navegação fluida entre seções
 
-## 📷 Prints do Projeto
-*(adicione screenshots aqui, ou use um GIF do site rodando)*
-
-## 🌐 Deploy (se tiver)
-[Link para visualizar online](https://seuhost.netlify.app)
-
 ## 👨‍💻 Autor
 Pedro Santana de Morais Lima  
 [LinkedIn](https://linkedin.com/in/pedrosantana21) | [GitHub](https://github.com/pedrolima2106)
