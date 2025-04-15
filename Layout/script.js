@@ -7,3 +7,17 @@ function proxima(){
     imgPrincipal = imgProxima;
     imgProxima = xi;
 }
+
+
+
+/*let slideAtual = 0;
+
+function mudarSlide(direcao) {
+    const slider = document.getElementById("slider");
+    slideAtual += direcao;
+
+    if (slideAtual < 0) slideAtual = 1; // volta pro segundo
+    if (slideAtual > 1) slideAtual = 0; // volta pro primeiro
+
+    slider.style.transform = `translateX(-${slideAtual * 100}%)`;
+}*/

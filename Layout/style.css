@@ -191,3 +191,64 @@ nav ul li a:hover {
         display: none;
       }
 }
+
+
+.scroll-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* Faz os cards empilharem no celular */
+}
+
+.scroll-box {
+    flex: 1 1 45%;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-height: 430px;
+    position: relative;
+}
+
+/*.scroll-content {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.scroll-content::-webkit-scrollbar {
+    height: 6px;
+}*
+
+/*.scroll-content::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 3px;
+}*/
+
+h3 {
+    margin-top: 0;
+}
+
+.slider-controls button {
+    padding: 10px 20px;
+    background-color: #978ae2;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.slider-controls button:hover {
+    background-color: #28f1ff;
+}
+
+.slider-controls button#es{ margin-right: 300px;}
+
+.slider-controls button#di{ margin-left: 300px;}
+
